@@ -661,3 +661,197 @@ Processing by BlogsController#show as HTML
 Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/" for 118.106.123.178 at 2021-04-05 09:09:57 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.5/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 12ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs/1/edit" for 118.106.123.178 at 2021-04-05 09:10:14 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:24
+  Rendering blogs/edit.html.erb within layouts/application
+  Rendered blogs/edit.html.erb within layouts/application (200.3ms)
+Completed 500 Internal Server Error in 233ms (ActiveRecord: 1.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `ture' for #<#<Class:0x00000000043c9cf0>:0x000000000446b2a8>
+Did you mean?  true):
+    1: <h1>編集画面</h1>
+    2: <%= form_with model:@blog, local: ture do |f| %>
+    3: <h4>タイトル</h4>
+    4: <%= f.text_field :title %>
+    5: <h4>カテゴリー</h4>
+  
+app/views/blogs/edit.html.erb:2:in `_app_views_blogs_edit_html_erb___3405234975706585694_35541780'
+Started GET "/blogs/1/edit" for 118.106.123.178 at 2021-04-05 09:10:35 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:24
+  Rendering blogs/edit.html.erb within layouts/application
+  Rendered blogs/edit.html.erb within layouts/application (167.6ms)
+Completed 500 Internal Server Error in 174ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `ture' for #<#<Class:0x00000000043c9cf0>:0x00007faa2c029670>
+Did you mean?  true):
+    1: <h1>編集画面</h1>
+    2: <%= form_with model:@blog, local: ture do |f| %>
+    3: <h4>タイトル</h4>
+    4: <%= f.text_field :title %>
+    5: <h4>カテゴリー</h4>
+  
+app/views/blogs/edit.html.erb:2:in `_app_views_blogs_edit_html_erb___3405234975706585694_70184429768540'
+Started GET "/blogs/1" for 118.106.123.178 at 2021-04-05 09:12:06 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:6
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (307.7ms)
+Completed 500 Internal Server Error in 314ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blogs_path' for #<#<Class:0x00000000043c9cf0>:0x000000000478ccc0>
+Did you mean?  edit_blog_path):
+    85:         a small tree mammal.
+    86:         <!-- body部分 ここまで -->
+    87:       </p>
+    88:       <%= link_to "編集",edit_blogs_path(@blog) %>
+    89:       <a href="#">削除</a>
+    90:       <div class="author-case">
+    91:         <div class="author-image"></div>
+  
+app/views/blogs/show.html.erb:88:in `_app_views_blogs_show_html_erb__2133175954403113782_37514940'
+Started GET "/blogs/1/edit" for 118.106.123.178 at 2021-04-05 09:14:36 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.9ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:24
+  Rendering blogs/edit.html.erb within layouts/application
+  Rendered blogs/edit.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 64ms (Views: 61.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/blogs/1/edit" for 118.106.123.178 at 2021-04-05 09:14:38 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:24
+  Rendering blogs/edit.html.erb within layouts/application
+  Rendered blogs/edit.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 32.1ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/blogs/1" for 118.106.123.178 at 2021-04-05 09:15:05 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"awIInJNLMm2Obw7TLNncf512Q3w1iljy-hunWv5ljsMOphAHKLcisnOpGhpXl69L4pWrmLWfdiFAlcfxKyUYGg", "blog"=>{"title"=>"テスト更新", "category"=>"テスト更新", "body"=>"テスト更新"}, "commit"=>"保存", "id"=>"1"}
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:28
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/blogs_controller.rb:29
+  [1m[36mBlog Update (4.0ms)[0m  [1m[33mUPDATE "blogs" SET "title" = ?, "category" = ?, "body" = ?, "updated_at" = ? WHERE "blogs"."id" = ?[0m  [["title", "テスト更新"], ["category", "テスト更新"], ["body", "テスト更新"], ["updated_at", "2021-04-05 09:15:05.125630"], ["id", 1]]
+  ↳ app/controllers/blogs_controller.rb:29
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/blogs_controller.rb:29
+Redirected to https://016092c63c6940a3a49b49aa383cac50.vfs.cloud9.us-east-1.amazonaws.com/blogs/1
+Completed 302 Found in 20ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/blogs/1" for 118.106.123.178 at 2021-04-05 09:15:05 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:6
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (132.7ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blogs_path' for #<#<Class:0x00000000043c9cf0>:0x00007faa28d12b88>
+Did you mean?  edit_blog_path):
+    85:         a small tree mammal.
+    86:         <!-- body部分 ここまで -->
+    87:       </p>
+    88:       <%= link_to "編集",edit_blogs_path(@blog) %>
+    89:       <a href="#">削除</a>
+    90:       <div class="author-case">
+    91:         <div class="author-image"></div>
+  
+app/views/blogs/show.html.erb:88:in `_app_views_blogs_show_html_erb__2133175954403113782_70184402812960'
+Started GET "/blogs/1/edit" for 118.106.123.178 at 2021-04-05 09:15:48 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:24
+  Rendering blogs/edit.html.erb within layouts/application
+  Rendered blogs/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blogs/1/edit" for 118.106.123.178 at 2021-04-05 09:15:50 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:24
+  Rendering blogs/edit.html.erb within layouts/application
+  Rendered blogs/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/blogs/1" for 118.106.123.178 at 2021-04-05 09:15:52 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5O5-6iMsnQ7ulEgG4lgXoO1Z6TTwuDKPATbLM0vk8EyBSmZxmNCN0RNSXM-ZFmSUkroB0HCtHFy7uKuYnqRmlQ", "blog"=>{"title"=>"テスト更新", "category"=>"テスト更新", "body"=>"テスト更新"}, "commit"=>"保存", "id"=>"1"}
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:28
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/blogs_controller.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/blogs_controller.rb:29
+Redirected to https://016092c63c6940a3a49b49aa383cac50.vfs.cloud9.us-east-1.amazonaws.com/blogs/1
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/blogs/1" for 118.106.123.178 at 2021-04-05 09:15:52 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:6
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blogs/1/edit" for 118.106.123.178 at 2021-04-05 09:17:03 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blogs_controller.rb:24
+  Rendering blogs/edit.html.erb within layouts/application
+  Rendered blogs/edit.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.1ms)
+
+
