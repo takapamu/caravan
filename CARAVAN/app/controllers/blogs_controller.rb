@@ -8,6 +8,7 @@ class BlogsController < ApplicationController
 
   def index
     @blogs = Blog.all
+    p @blogs
   end
 
   def new
@@ -16,6 +17,7 @@ class BlogsController < ApplicationController
 
   def create
     blog = Blog.new(blog_params)
+    binding.pry
     blog.save
     redirect_to blogs_path(blog.id)
   end
