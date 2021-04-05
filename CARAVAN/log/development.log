@@ -173,3 +173,459 @@ Processing by BlogsController#index as HTML
 Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 118.106.123.178 at 2021-04-05 08:12:49 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.5/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 15ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:12:59 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  Rendered blogs/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:113: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:115: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/blogs/index.html.erb:113: syntax error, unexpected ensure, expecting ')'
+app/views/blogs/index.html.erb:115: syntax error, unexpected end, expecting ')'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:13:29 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  Rendered blogs/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:113: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:115: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/blogs/index.html.erb:113: syntax error, unexpected ensure, expecting ')'
+app/views/blogs/index.html.erb:115: syntax error, unexpected end, expecting ')'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:14:03 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  Rendered blogs/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:113: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:115: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/blogs/index.html.erb:113: syntax error, unexpected ensure, expecting ')'
+app/views/blogs/index.html.erb:115: syntax error, unexpected end, expecting ')'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:14:30 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  Rendered blogs/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:113: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:115: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/blogs/index.html.erb:113: syntax error, unexpected ensure, expecting ')'
+app/views/blogs/index.html.erb:115: syntax error, unexpected end, expecting ')'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:18:58 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  Rendered blogs/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:49: syntax error, unexpected end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:115: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:117: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/blogs/index.html.erb:49: syntax error, unexpected end, expecting ')'
+app/views/blogs/index.html.erb:115: syntax error, unexpected ensure, expecting ')'
+app/views/blogs/index.html.erb:117: syntax error, unexpected end, expecting ')'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:19:10 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  Rendered blogs/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:49: syntax error, unexpected end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:115: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/CARAVAN/app/views/blogs/index.html.erb:117: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/blogs/index.html.erb:49: syntax error, unexpected end, expecting ')'
+app/views/blogs/index.html.erb:115: syntax error, unexpected ensure, expecting ')'
+app/views/blogs/index.html.erb:117: syntax error, unexpected end, expecting ')'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:22:59 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 266ms (Views: 264.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:23:02 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blogs/new" for 118.106.123.178 at 2021-04-05 08:25:26 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 71ms (Views: 63.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs/new" for 118.106.123.178 at 2021-04-05 08:25:27 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs/new" for 118.106.123.178 at 2021-04-05 08:25:30 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blogs" for 118.106.123.178 at 2021-04-05 08:25:57 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hJ59ChLNs4Le400wzw-b9RL7CEZT6NifxvgQVLDW9dfhOmWRqTGjXSMlWfm0QejBbRjgotP99kx8dnD_ZZZjDg", "blog"=>{"title"=>"テスト", "category"=>"", "body"=>""}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/blogs_controller.rb:18
+  [1m[36mBlog Create (1.5ms)[0m  [1m[32mINSERT INTO "blogs" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "テスト"], ["category", ""], ["body", ""], ["created_at", "2021-04-05 08:25:57.794788"], ["updated_at", "2021-04-05 08:25:57.794788"]]
+  ↳ app/controllers/blogs_controller.rb:18
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/blogs_controller.rb:18
+Redirected to https://016092c63c6940a3a49b49aa383cac50.vfs.cloud9.us-east-1.amazonaws.com/blogs
+Completed 302 Found in 12ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:25:58 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (The asset "img/forest.hpg" is not present in the asset pipeline.
+):
+    39:     <div class="blog-box">
+    40:    <% @blogs.each do |blog| %>
+    41:    <div class="blog-item">
+    42:      <div class="blog-image"><%= image_tag('img/forest.hpg', class: 'blog-image')%></div>
+    43:      <section class="blog-text">
+    44:        <h3 class="blog-text=heading"><%= link_to blog.title, blog_path(blog) %></h3>
+    45:        <p class="blog-date"><%= blog.created_at %></p>
+  
+app/views/blogs/index.html.erb:42:in `block in _app_views_blogs_index_html_erb___4186597427685833289_70306107783960'
+app/views/blogs/index.html.erb:40:in `_app_views_blogs_index_html_erb___4186597427685833289_70306107783960'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:26:25 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (The asset "img/forest.hpg" is not present in the asset pipeline.
+):
+    39:     <div class="blog-box">
+    40:    <% @blogs.each do |blog| %>
+    41:    <div class="blog-item">
+    42:      <div class="blog-image"><%= image_tag('img/forest.hpg', class: 'blog-image')%></div>
+    43:      <section class="blog-text">
+    44:        <h3 class="blog-text=heading"><%= link_to blog.title, blog_path(blog) %></h3>
+    45:        <p class="blog-date"><%= blog.created_at %></p>
+  
+app/views/blogs/index.html.erb:42:in `block in _app_views_blogs_index_html_erb___4186597427685833289_70306107134980'
+app/views/blogs/index.html.erb:40:in `_app_views_blogs_index_html_erb___4186597427685833289_70306107134980'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:26:40 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (The asset "img/forest.hpg" is not present in the asset pipeline.
+):
+    39:     <div class="blog-box">
+    40:    <% @blogs.each do |blog| %>
+    41:    <div class="blog-item">
+    42:      <div class="blog-image"><%= image_tag('img/forest.hpg', class: 'blog-image')%></div>
+    43:      <section class="blog-text">
+    44:        <h3 class="blog-text=heading"><%= link_to blog.title, blog_path(blog) %></h3>
+    45:        <p class="blog-date"><%= blog.created_at %></p>
+  
+app/views/blogs/index.html.erb:42:in `block in _app_views_blogs_index_html_erb___4186597427685833289_70306106506220'
+app/views/blogs/index.html.erb:40:in `_app_views_blogs_index_html_erb___4186597427685833289_70306106506220'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:28:40 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (The asset "img/forest.hpg" is not present in the asset pipeline.
+):
+    39:     <div class="blog-box">
+    40:    <% @blogs.each do |blog| %>
+    41:    <div class="blog-item">
+    42:      <div class="blog-image"><%= image_tag('img/forest.hpg', class: 'blog-image')%></div>
+    43:      <section class="blog-text">
+    44:        <h3 class="blog-text=heading"><%= link_to blog.title, blog_path(blog) %></h3>
+    45:        <p class="blog-date"><%= blog.created_at %></p>
+  
+app/views/blogs/index.html.erb:42:in `block in _app_views_blogs_index_html_erb___4186597427685833289_70306105951920'
+app/views/blogs/index.html.erb:40:in `_app_views_blogs_index_html_erb___4186597427685833289_70306105951920'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:32:34 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (The asset "img/forest.hpg" is not present in the asset pipeline.
+):
+    39:     <div class="blog-box">
+    40:    <% @blogs.each do |blog| %>
+    41:    <div class="blog-item">
+    42:      <div class="blog-image"><%= image_tag('img/forest.hpg', class: 'blog-image')%>
+    43:      <section class="blog-text">
+    44:        <h3 class="blog-text=heading"><%= link_to blog.title, blog_path(blog) %></h3>
+    45:        <p class="blog-date"><%= blog.created_at %></p>
+  
+app/views/blogs/index.html.erb:42:in `block in _app_views_blogs_index_html_erb___4186597427685833289_70306105630100'
+app/views/blogs/index.html.erb:40:in `_app_views_blogs_index_html_erb___4186597427685833289_70306105630100'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:34:35 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (The asset "img/forest.hpg" is not present in the asset pipeline.
+):
+    39:     <div class="blog-box">
+    40:    <% @blogs.each do |blog| %>
+    41:    <div class="blog-item">
+    42:      <div class="blog-image"><%= image_tag('img/forest.hpg', class: 'blog-image')%></div
+    43:      <section class="blog-text">
+    44:        <h3 class="blog-text=heading"><%= link_to blog.title, blog_path(blog) %></h3>
+    45:        <p class="blog-date"><%= blog.created_at %></p>
+  
+app/views/blogs/index.html.erb:42:in `block in _app_views_blogs_index_html_erb___4186597427685833289_70306105117760'
+app/views/blogs/index.html.erb:40:in `_app_views_blogs_index_html_erb___4186597427685833289_70306105117760'
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:38:52 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (The asset "img/forest.hpg" is not present in the asset pipeline.
+):
+    39:     <div class="blog-box">
+    40:    <% @blogs.each do |blog| %>
+    41:    <div class="blog-item">
+    42:      <div class="blog-image"><%= image_tag('img/forest.hpg', class: 'blog-image')%></div
+    43:      <section class="blog-text">
+    44:        <h3 class="blog-text=heading"><%= link_to blog.title, blog_path(blog) %></h3>
+    45:        <p class="blog-date"><%= blog.created_at %></p>
+  
+app/views/blogs/index.html.erb:42:in `block in _app_views_blogs_index_html_erb___4186597427685833289_70306101163660'
+app/views/blogs/index.html.erb:40:in `_app_views_blogs_index_html_erb___4186597427685833289_70306101163660'
+Started GET "/blogs/new" for 118.106.123.178 at 2021-04-05 08:39:03 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs/new" for 118.106.123.178 at 2021-04-05 08:39:06 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blogs" for 118.106.123.178 at 2021-04-05 08:39:10 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AO2FyUz9OM_M3iRJFcKHlsjnZDRkqA5WoufsgaLB1pZlSZ1S9wEoEDEYMIBujPSitwSM0OS9IIUYaYwqd4FATw", "blog"=>{"title"=>"", "category"=>"", "body"=>""}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/blogs_controller.rb:18
+  [1m[36mBlog Create (0.6ms)[0m  [1m[32mINSERT INTO "blogs" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", ""], ["category", ""], ["body", ""], ["created_at", "2021-04-05 08:39:10.406706"], ["updated_at", "2021-04-05 08:39:10.406706"]]
+  ↳ app/controllers/blogs_controller.rb:18
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/blogs_controller.rb:18
+Redirected to https://016092c63c6940a3a49b49aa383cac50.vfs.cloud9.us-east-1.amazonaws.com/blogs
+Completed 302 Found in 11ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:39:10 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (1.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.2ms)
+
+
+  
+ActionView::Template::Error (The asset "img/forest.hpg" is not present in the asset pipeline.
+):
+    39:     <div class="blog-box">
+    40:    <% @blogs.each do |blog| %>
+    41:    <div class="blog-item">
+    42:      <div class="blog-image"><%= image_tag('img/forest.hpg', class: 'blog-image')%></div
+    43:      <section class="blog-text">
+    44:        <h3 class="blog-text=heading"><%= link_to blog.title, blog_path(blog) %></h3>
+    45:        <p class="blog-date"><%= blog.created_at %></p>
+  
+app/views/blogs/index.html.erb:42:in `block in _app_views_blogs_index_html_erb___4186597427685833289_70306107980640'
+app/views/blogs/index.html.erb:40:in `_app_views_blogs_index_html_erb___4186597427685833289_70306107980640'
+Started GET "/blogs/new" for 118.106.123.178 at 2021-04-05 08:42:30 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs/new" for 118.106.123.178 at 2021-04-05 08:42:32 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blogs" for 118.106.123.178 at 2021-04-05 08:42:44 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ilmcWpgzKfylo1tthHMttcJyMerkEtQajYS5xC82xgLv_YTBI885I1hlT6T_PV6BvZHZDmQH-sk3Ctlv-nZQ2w", "blog"=>{"title"=>"テスト", "category"=>"", "body"=>""}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/blogs_controller.rb:18
+  [1m[36mBlog Create (1.2ms)[0m  [1m[32mINSERT INTO "blogs" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "テスト"], ["category", ""], ["body", ""], ["created_at", "2021-04-05 08:42:44.933997"], ["updated_at", "2021-04-05 08:42:44.933997"]]
+  ↳ app/controllers/blogs_controller.rb:18
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/blogs_controller.rb:18
+Redirected to https://016092c63c6940a3a49b49aa383cac50.vfs.cloud9.us-east-1.amazonaws.com/blogs
+Completed 302 Found in 10ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/blogs" for 118.106.123.178 at 2021-04-05 08:42:45 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.1ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:40
+  Rendered blogs/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blogs/1" for 118.106.123.178 at 2021-04-05 08:45:34 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs/1" for 118.106.123.178 at 2021-04-05 08:45:51 +0000
+Cannot render console from 118.106.123.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
